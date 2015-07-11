@@ -76,5 +76,9 @@ class WrapperTest extends PHPUnit_Framework_TestCase
         $this->assertEquals('Thelonge\nstWord\nmade', $this->wrapper->wrap($textToBeParsed, $maxLineLength));
     }
 
+    function testWillFail(){
+        $this->assertEquals(1,2);
+    }
+
 
 } 
